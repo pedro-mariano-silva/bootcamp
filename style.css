@@ -347,5 +347,19 @@ input[type="submit"]{
 
      }
 
+     /*Ajustando o footer*/
+
+     footer .linha1{
+        flex-direction: column;        
+
+     }
+
+     footer .endereco{
+        width: 95%;
+        margin-bottom: 20px;
+
+
+     }
+
 
  }
