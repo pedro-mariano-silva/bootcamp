@@ -171,9 +171,181 @@ input[type="submit"]{
     font-size: 30px;
     color:white;
     font: bold;
-    margin-top: 100px;
+    margin-top: 65px;
     box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
     cursor: pointer;
     
 
     }
+
+    /* Estilização do rodapé (footer)*/
+
+    footer{
+        margin-top: 70px;
+        width: 100%;
+        background-color: var(--azul-dnc);
+
+    }
+
+    footer .linha1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    footer ul{
+        list-style: none;
+        margin:0px;
+        padding: 0px;
+        font-family: var(--fonte-padrao);
+        font-size: 25px;
+        
+        
+    }
+
+    footer nav{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height: 310px;
+
+    }
+
+
+    footer h5{
+        text-align: center;
+        color: white;
+        font-weight: 800;
+        font-size: 20px;
+        font-family: var(--fonte-padrao);
+
+        background-color: var(--preto-dnc);
+        border-radius: 15px;
+
+        padding: 0px 10px 0px 10px;
+        margin-bottom: 9px;
+
+    }
+
+    footer ul li{
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-size: 20px;
+        font-family: var(--fonte-padrao);
+
+        margin: 20px 0px 20px 0px
+
+    }
+
+    footer ul li a{
+        color:white;
+        text-decoration: none;
+
+    }
+
+    footer ul li a:hover{
+        color:var(--cinza-hover);
+
+
+    }
+
+    footer .endereco{
+        font-weight: 600;
+        font-size: 20px;
+        font-family: var(--fonte-padrao);
+        color: white;
+        text-align: center;
+        
+    }
+
+    footer .linha2{
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 10px;
+
+    }
+
+    footer .linha2 a{
+        
+        font-family: var(--fonte-padrao);
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+      
+    }
+
+  
+    footer .linha2 a:first-child{
+        border-right: 3px solid white;  
+
+    }
+
+    footer .linha2 a:hover{
+        color:var(--cinza-hover);
+
+    }
+
+    /* Configurando responsividade do menu*/
+
+ @media only screen and (max-width: 600px){
+    #principal{
+       flex-direction: column;
+       height: auto;
+        
+    }
+
+    #menu{
+        flex-direction: column;
+        width: 100%;
+        margin:0px;
+
+        
+    }
+
+    #menu a{
+        display: flex;
+        align-items: center;
+        height: 50px;
+
+    }
+
+    #principal button{
+        width: 100%;
+        margin:0px;
+
+
+    }
+
+     /* Configurando responsividade da seção*/
+     section h1{
+        font-size: 40px;
+        
+     }
+
+     section h2{
+        font-size: 28px;
+        padding-right: 15px;
+        padding-left: 15px;
+
+     }
+
+     form{
+        width: 95%;
+        font-size: 20px;
+
+     }
+
+     .checkbox-itens label{
+        font-size: 18px;
+
+
+     }
+
+
+ }
